@@ -55,10 +55,10 @@ for(var i = 0, length = classes_list.length; i < length; i++){
 
 		}
 
-		params += "account, ";
+		params += "__account, ";
 
 		if(method.is_db){
-			params += "db_client, ";
+			params += "__db_client, ";
 		}
 
 		// Создаем файл API метдода
