@@ -1,4 +1,4 @@
-var m = function ({params}__cb){
+var m = function (class_name, __account, __cb){
 
 	// response
 	__cb({
